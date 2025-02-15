@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import Header from './components/header/Header.jsx';
+import './assets/_reset.scss';
+import './assets/_helpers.scss';
+import './assets/fonts/font/_stylesheet.scss';
+import './components/header/Header.scss';
+import arrowBottom from './assets/image/symbol/circle-arrow-bottom.svg'
+import HeaderMobileBar from "./components/HeaderMobileBar/HeaderMobileBar.jsx";
+import ExperienceBlock from "./components/experienceBlock/ExperienceBlock.jsx";
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <>
+          <div className="background-gradient">
+              <div className="splash__block">
+                  <HeaderMobileBar/>
+                  <Header> </Header>
+                  <h1 className="splash__title wrapper">
+                      you legal solutions provider
+                  </h1>
+                  <div className="arrow-link__block">
+                      <a className="arrow-link" href="#experience-scroll">
+                          <img src={arrowBottom} alt=""/>
+                      </a>
+                  </div>
+              </div>
+              <ExperienceBlock/>
+          </div>
+          <div className="background-block">
+              <div className="broder-splash"></div>
+              <div className="broder-splash"></div>
+          </div>
+
+      </>
   )
 }
 

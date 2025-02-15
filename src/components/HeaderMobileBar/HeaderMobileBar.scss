@@ -1,0 +1,12 @@
+.contacts-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 10px 15px;
+  background-color: rgba(245, 245, 250, 0.2);
+}
+
+@media (min-width: 768px) {
+  .contacts-mobile {
+    display: none;
+  }
+}

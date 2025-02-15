@@ -1,0 +1,25 @@
+.navigation {
+  display: none;
+}
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+
+    & > *:not(:last-child)::after {
+      content: '';
+      display: inline-flex;
+      height: 6px;
+      width: 6px;
+      margin-left: 6px;
+      margin-right: 6px;
+      background-color: #ffffff;
+      border-radius: 50%;
+    }
+
+    & > * {
+      align-items: center;
+      display: flex;
+    }
+  }
+}
