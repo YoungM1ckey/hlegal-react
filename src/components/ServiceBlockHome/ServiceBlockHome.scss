@@ -1,0 +1,86 @@
+$color-card-1: #f0145a;
+$color-card-2: #ef8080;
+
+.frame-title {
+  padding-top: 30px;
+  margin-bottom: 30px;
+
+  .service-title-link {
+    text-decoration: none;
+    color: #24a3ff;
+    margin: 0;
+  }
+
+  .service-title-link {
+    display: inline-flex;
+    text-transform: uppercase;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+    &:hover {
+      color: #f0145a;
+
+      .hover-icon-title-link {
+        stroke: #f0145a;
+      }
+    }
+  }
+
+  .service-title {
+    background: linear-gradient(to right, #f0145a, #ef8080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 10px;
+  }
+}
+.service-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+
+  gap: 30px; // Расстояние между карточками
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .card-icon-border {
+      border: none;
+      border-radius: 24px;
+      padding: 14px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+
+      .card-icon {
+        font-size: 64px;
+        background: linear-gradient(to bottom, $color-card-1, $color-card-2);
+        -webkit-background-clip: text;
+        color: transparent;
+        border: none;
+      }
+    }
+
+    .card-title {
+      color: #24a3ff;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #ffffff;
+    }
+  }
+}

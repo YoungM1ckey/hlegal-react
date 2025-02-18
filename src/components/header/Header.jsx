@@ -5,8 +5,12 @@ import logoHeader from './logo-header.svg';
 import hamburgerButtonIcon from './hamburger-button.svg';
 import slashIcon from '../../assets/image/symbol/slash.svg';
 
+import { useMediaQuery } from "react-responsive";
+
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -33,7 +37,7 @@ function Header() {
                     <a className="nav__link" href="#">contact</a>
                 </nav>
             </div>
-            {/*<NavigationHeaderBar></NavigationHeaderBar>*/}
+        {isTablet && <NavigationHeaderBar />}
             <a href="#" className="logo">
                 <img className="header__logo" src={logoHeader} alt="hLegal" />
                 <img className="slash-mobile" src={slashIcon} alt="slash"></img>

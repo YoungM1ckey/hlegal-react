@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import Header from './components/header/Header.jsx';
 import './assets/_reset.scss';
 import './assets/_helpers.scss';
@@ -7,17 +7,21 @@ import './components/header/Header.scss';
 import arrowBottom from './assets/image/symbol/circle-arrow-bottom.svg'
 import HeaderMobileBar from "./components/HeaderMobileBar/HeaderMobileBar.jsx";
 import ExperienceBlock from "./components/experienceBlock/ExperienceBlock.jsx";
-
+import Footer from './components/footer/Footer.jsx';
+import PublicationBlock from "./components/PublicationBlock/PublicationBlock.jsx";
+import ClientsBlock from "./components/ClientsBlock/ClientsBlock.jsx";
+import TeamBlock from "./components/TeamBlock/TeamBlock.jsx";
+import ServiceBlockHome from "./components/ServiceBlockHome/ServiceBlockHome.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
       <>
           <div className="background-gradient">
               <div className="splash__block">
                   <HeaderMobileBar/>
-                  <Header> </Header>
+                  <Header/>
                   <h1 className="splash__title wrapper">
                       you legal solutions provider
                   </h1>
@@ -28,12 +32,17 @@ function App() {
                   </div>
               </div>
               <ExperienceBlock/>
+              <ServiceBlockHome/>
           </div>
+
           <div className="background-block">
               <div className="broder-splash"></div>
               <div className="broder-splash"></div>
           </div>
-
+          <TeamBlock/>
+          <ClientsBlock/>
+          <PublicationBlock/>
+          <Footer/>
       </>
   )
 }
