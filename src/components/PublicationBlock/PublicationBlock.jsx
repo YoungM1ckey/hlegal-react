@@ -41,11 +41,8 @@ function PublicationBlock() {
                             </a>
                             <time className="publication__card__information__date" dateTime="04-23">April 22</time>
                             <p className="publication__card__description">
-                                I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering
-                                my
-                                parents
-                                told
-                                me that if I…
+                                I&apos;m a jun on projects. I am a co-owner of a law firm. How it happened. Before entering
+                                my parents told me that if I…
                             </p>
                         </div>
                     </div>

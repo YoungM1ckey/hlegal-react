@@ -27,3 +27,4 @@ function NavigationMobileMenu() {
     )
 }
 
+export default NavigationMobileMenu;

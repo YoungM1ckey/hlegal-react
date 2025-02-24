@@ -1,5 +1,4 @@
 import './experienceBlock.scss'
-import App from "../../App.jsx";
 
 function experienceBlock() {
     return (
@@ -16,7 +15,7 @@ function experienceBlock() {
                     We turn the idea of legal services
                 </h4>
                 <p className="experience__description__inner">
-                    Consolidating many years of experience and practice, the company's lawyers accompany complex
+                    Consolidating many years of experience and practice, the company&apos;s lawyers accompany complex
                     projects and achieve a number of important decisions for the industry. Many of them form the
                     practice of applying the law of the sea in Ukraine.
                 </p>

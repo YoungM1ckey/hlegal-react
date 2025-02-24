@@ -21,42 +21,42 @@ function ClientsBlock() {
                 <h3 className="clients-title">They already trust us</h3>
             </div>
             <div className="clients-cards">
-                <div className="clients-card">
+                <a href='https://ithillel.ua/' target="_blank"  className="clients-card">
                     <img src={clientslogo1} alt="Hillel-Logo"/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo2} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo3} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='https://3dlook.ai/' target="_blank" className="clients-card">
                     <img src={clientslogo4} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo5} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='https://adtelligent.com/' target="_blank"  className="clients-card">
                     <img src={clientslogo6} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='https://clickky.biz/' target="_blank"  className="clients-card">
                     <img src={clientslogo7} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='https://ecolease.com.ua/' target="_blank"  className="clients-card">
                     <img src={clientslogo8} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo9} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo10} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='https://www.artprintstudio.com.ua/' target="_blank"  className="clients-card">
                     <img src={clientslogo11} alt=""/>
-                </div>
-                <div className="clients-card">
+                </a>
+                <a href='#' target="_blank"  className="clients-card">
                     <img src={clientslogo12} alt=""/>
-                </div>
+                </a>
             </div>
         </section>
     )
