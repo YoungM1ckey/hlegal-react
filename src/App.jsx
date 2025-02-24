@@ -7,7 +7,7 @@ import './components/header/Header.scss';
 import arrowBottom from './assets/image/symbol/circle-arrow-bottom.svg'
 import HeaderMobileBar from "./components/HeaderMobileBar/HeaderMobileBar.jsx";
 import ExperienceBlock from "./components/experienceBlock/ExperienceBlock.jsx";
-import Footer from './components/Footer/Footer.jsx';
+import Footer from './components/footer/Footer.jsx';
 import PublicationBlock from "./components/PublicationBlock/PublicationBlock.jsx";
 import ClientsBlock from "./components/ClientsBlock/ClientsBlock.jsx";
 import TeamBlock from "./components/TeamBlock/TeamBlock.jsx";
