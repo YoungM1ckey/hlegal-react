@@ -14,8 +14,6 @@ function Header() {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
-
-        // Блокируем/разблокируем прокрутку страницы при открытии меню
         if (!isMenuOpen) {
             document.body.style.overflowY = "hidden";
         } else {
