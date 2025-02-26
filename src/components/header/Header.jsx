@@ -29,14 +29,14 @@ function Header() {
                 <NavigationHeaderBar/>
                 <nav className="nav__links">
                     <a className="nav__link" href="#">about us</a>
-                    <a className="nav__link" href="#">services</a>
+                    <a className="nav__link" href="/servicePage">services</a>
                     <a className="nav__link" href="#">team</a>
                     <a className="nav__link" href="#">publications</a>
                     <a className="nav__link" href="#">contact</a>
                 </nav>
             </div>
         {isTablet && <NavigationHeaderBar />}
-            <a href="#" className="logo">
+            <a href="/Home" className="logo">
                 <img className="header__logo" src={logoHeader} alt="hLegal" />
                 <img className="slash-mobile" src={slashIcon} alt="slash"></img>
                 <p className="header__name-page">
@@ -45,7 +45,7 @@ function Header() {
             </a>
             <nav className="nav__links tablet">
                 <a className="nav__link" href="#">about us</a>
-                <a className="nav__link" href="#">services</a>
+                <a className="nav__link" href="/servicePage">services</a>
                 <a className="nav__link" href="#">team</a>
                 <a className="nav__link" href="#">publications</a>
                 <a className="nav__link" href="#">contact</a>
@@ -69,7 +69,7 @@ function Header() {
                 </button>
                 <div className="nav-block-element">
                     <a className="navigation__menu-mobile__item" href="#">about us</a>
-                    <a className="navigation__menu-mobile__item" href="#">services</a>
+                    <a className="navigation__menu-mobile__item" href="/ServicePage">services</a>
                     <a className="navigation__menu-mobile__item" href="#">team</a>
                     <a className="navigation__menu-mobile__item" href="#">publications</a>
                     <a className="navigation__menu-mobile__item" href="#">contact</a>
