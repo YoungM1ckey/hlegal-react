@@ -1,4 +1,5 @@
 $base-color-title: #24A3FF;
+$base-color-hover: #F0145A;
 
 footer {
   display: flex;
@@ -72,20 +73,20 @@ footer {
     line-height: 19px;
 
     &:hover {
-      color: #F0145A;
+      color: $base-color-hover;
     }
   }
 }
 
 .facebook-icon {
-  color: #24A3FF;
+  color: $base-color-title;
   &:hover {
-    color: #F0145A;
+    color: $base-color-hover;
   }
 }
 
 #facebook-icon:hover {
-  color: #F0145A;
+  color: $base-color-hover;
 }
 
 .footer {

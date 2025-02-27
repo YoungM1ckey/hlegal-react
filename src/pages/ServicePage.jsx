@@ -15,10 +15,6 @@ const ServicePage = () => {
                 </div>
                 <IntroServicePage/>
             </div>
-            <div className="background-block">
-                <div className="broder-splash"></div>
-                <div className="broder-splash"></div>
-            </div>
             <ClientsBlock/>
             <Footer/>
         </>

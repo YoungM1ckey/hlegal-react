@@ -36,7 +36,7 @@ function Header() {
                 </nav>
             </div>
         {isTablet && <NavigationHeaderBar />}
-            <a href="/Home" className="logo">
+            <a href="/" className="logo">
                 <img className="header__logo" src={logoHeader} alt="hLegal" />
                 <img className="slash-mobile" src={slashIcon} alt="slash"></img>
                 <p className="header__name-page">

@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ServicePage from './pages/ServicePage.jsx';
-import Contact from './pages/ServicePage.jsx';
+import Contact from './pages/Services.jsx';
 // import NotFound from './pages/NotFound';
 
 const AppRoutes = () => {

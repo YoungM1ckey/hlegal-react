@@ -35,10 +35,10 @@ const Home = () => {
                 </a>
                 <ServiceBlockHome/>
             </div>
-            <div className="background-block">
-                <div className="broder-splash"></div>
-                <div className="broder-splash"></div>
-            </div>
+            {/*<div className="background-block">*/}
+            {/*    <div className="broder-splash"></div>*/}
+            {/*    <div className="broder-splash"></div>*/}
+            {/*</div>*/}
             <TeamBlock/>
             <ClientsBlock/>
             <PublicationBlock/>
