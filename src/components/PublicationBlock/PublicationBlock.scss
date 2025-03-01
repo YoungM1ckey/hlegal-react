@@ -1,12 +1,11 @@
-$base-color-title: #24A3FF;
+@import '../../assets/_variables.scss';
 
 .publication {
   background-color: #F5F5FA;
-  //margin-bottom: 30px;
 }
 
 .facebook-icon {
-  color: #24A3FF;
+  color: $color-blue-link;
 }
 
 .service-title-link {
@@ -19,16 +18,16 @@ $base-color-title: #24A3FF;
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
-  color: #24a3ff;
+  color: $color-blue-link;
   gap: 2px;
   margin-bottom: 5px;
   margin-top: 10px;
 
   &:hover {
-    color: #f0145a;
+    color: $color-card-1;
 
     .hover-icon-title-link {
-      stroke: #f0145a;
+      stroke: $color-card-1;
     }
   }
 }
@@ -37,7 +36,6 @@ $base-color-title: #24A3FF;
   margin-top: 30px;
   display: grid;
   gap: 60px;
-  //margin-bottom: 30px;
 }
 
 .server-title-block {
@@ -51,7 +49,7 @@ $base-color-title: #24A3FF;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  background: linear-gradient(to right, #f0145a, #ef8080);
+  background: $gradient-text;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -98,7 +96,7 @@ $base-color-title: #24A3FF;
     }
 
     .publication__card__information__title {
-      color: $base-color-title;
+      color: $color-blue-link;
       font-weight: 700;
       font-size: 16px;
       line-height: 19px;
@@ -110,13 +108,9 @@ $base-color-title: #24A3FF;
   .publication__cards {
     padding-bottom: 30px;
     grid-template-columns: repeat(2, 1fr);
-    //grid-template-rows: ;
     .publication__card:nth-child(3) {
       grid-column: 1/-1;
     }
-  }
-  .publication {
-
   }
 }
 

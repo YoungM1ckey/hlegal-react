@@ -26,19 +26,15 @@ const Home = () => {
                     </div>
                 </div>
                 <ExperienceBlock/>
-                <a className="wrapper service-title-link" href="#"
+                <a className="wrapper service-title-link" href="/servicePage"
                 >Services
-                    <svg className="service-title-link" width="12" height="13" viewBox="0 0 12 13" fill="none"
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <path className="hover-icon-title-link" d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" strokeWidth="2"/>
                     </svg>
                 </a>
                 <ServiceBlockHome/>
             </div>
-            {/*<div className="background-block">*/}
-            {/*    <div className="broder-splash"></div>*/}
-            {/*    <div className="broder-splash"></div>*/}
-            {/*</div>*/}
             <TeamBlock/>
             <ClientsBlock/>
             <PublicationBlock/>

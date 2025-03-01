@@ -1,3 +1,5 @@
+@import '../../assets/_variables.scss';
+
 .experience-block {
   padding-top: 30px;
 }
@@ -18,9 +20,8 @@
   color: #B3B3BA;
   white-space: none;
 
-
   &:nth-child(1) {
-    background: linear-gradient(to right, #ef8080, #f0145a);
+    background: linear-gradient(to right, $color-card-2, $color-card-1);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -52,8 +53,6 @@
   font-size: 20px;
   line-height: 24px;
   display: inline-block;
-  //margin-top: 30px;
-
 }
 .experience__description__inner {
   font-weight: 400;
@@ -79,7 +78,7 @@
     line-height: 46px;
 
     &:hover {
-      color: #F0145A;
+      color: $color-card-1;
     }
   }
   .border__experience__block {

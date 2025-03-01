@@ -1,5 +1,4 @@
-$base-color-title: #24A3FF;
-$base-color-hover: #F0145A;
+@import '../../assets/_variables.scss';
 
 footer {
   display: flex;
@@ -10,7 +9,7 @@ footer {
 }
 
 .footer__locale-address {
-  color: $base-color-title;
+  color: $color-blue-link;
 }
 
 .footer__copyright {
@@ -19,7 +18,7 @@ footer {
 }
 
 .contact-link__facebook__icon {
-  fill: $base-color-title;
+  fill: $color-blue-link;
 }
 
 .address-on-map {
@@ -67,26 +66,26 @@ footer {
 
   .contact-link__mail {
     text-decoration: none;
-    color: $base-color-title;
+    color: $color-blue-link;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 
     &:hover {
-      color: $base-color-hover;
+      color: $color-card-1;
     }
   }
 }
 
 .facebook-icon {
-  color: $base-color-title;
+  color: $color-blue-link;
   &:hover {
-    color: $base-color-hover;
+    color: $color-card-1;
   }
 }
 
 #facebook-icon:hover {
-  color: $base-color-hover;
+  color: $color-card-1;
 }
 
 .footer {

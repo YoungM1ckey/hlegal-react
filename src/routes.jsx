@@ -8,10 +8,8 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            {/*<Route path="/Home" element={<Home />} />*/}
             <Route path="/ServicePage" element={<ServicePage />} />
             <Route path="/contact" element={<Contact />} />
-            {/*<Route path="*" element={<NotFound />} />*/}
         </Routes>
     );
 };

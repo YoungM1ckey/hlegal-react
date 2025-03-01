@@ -6,13 +6,6 @@ function ServiceBlockHome() {
     return (
     <>
         <div className="frame-title wrapper">
-            {/*<a className="service-title-link" href="#"*/}
-            {/*>Services*/}
-            {/*    <svg className="service-title-link" width="12" height="13" viewBox="0 0 12 13" fill="none"*/}
-            {/*         xmlns="http://www.w3.org/2000/svg">*/}
-            {/*        <path className="hover-icon-title-link" d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" strokeWidth="2"/>*/}
-            {/*    </svg>*/}
-            {/*</a>*/}
             <h1 className="service-title">What can we do better than others?</h1>
         </div>
         <div className="service-card wrapper">
@@ -24,7 +17,7 @@ function ServiceBlockHome() {
                         <span className="path3"></span>
                     </span>
                 </div>
-                <h2 className="card-title">IT and e-commerce</h2>
+                <a href="#" className="card-title">IT and e-commerce</a>
                 <p className="description">
                     An endless stream of contracts, tax issues, labor relations,
                     corporate papers - legal work distracts you from doing business.
@@ -35,7 +28,7 @@ function ServiceBlockHome() {
                 <div className="card-icon-border">
                     <span className="card-icon icon-Support"></span>
                 </div>
-                <h2 className="card-title">Comprehensive daily legal support</h2>
+                <a href="#" className="card-title">Comprehensive daily legal support</a>
                 <p className="description">
                     In addition, over time, the work will become the same type and
                     uninteresting for a full-time lawyer. And we know very well how
@@ -47,7 +40,7 @@ function ServiceBlockHome() {
                 <div className="card-icon-border">
                     <span className="card-icon icon-Coprorate"></span>
                 </div>
-                <h2 className="card-title">Structuring corporate relationships</h2>
+                <a href="#" className="card-title">Structuring corporate relationships</a>
                 <p className="description">
                     Instead of just providing legal services, we will hire a lawyer
                     or a whole team that will fit into the daily life of your
@@ -58,7 +51,7 @@ function ServiceBlockHome() {
                 <div className="card-icon-border">
                     <span className="card-icon icon-Trust"></span>
                 </div>
-                <h2 className="card-title">Building contractual relations</h2>
+                <a href="#" className="card-title">Building contractual relations</a>
                 <p className="description">
                     Once a week, or week after month, you have your own lawyer by
                     your side. Anyone in the company can catch it at the coffee
@@ -70,9 +63,9 @@ function ServiceBlockHome() {
                 <div className="card-icon-border">
                     <span className="card-icon icon-Protection"></span>
                 </div>
-                <h2 className="card-title">
+                <a href="#" className="card-title">
                     Protection of business, intellectual property
-                </h2>
+                </a>
                 <p className="description">
                     And all the other time he will work on new diverse projects, so
                     he will definitely not stop in professional development. One way
@@ -84,7 +77,7 @@ function ServiceBlockHome() {
                 <div className="card-icon-border">
                     <span className="card-icon icon-Court"></span>
                 </div>
-                <h2 className="card-title">Judicial representation</h2>
+                <a href="#" className="card-title">Judicial representation</a>
                 <p className="description">
                     Is it a small, medium-sized company or a market leader? Local
                     business or multinational company? Do you have your own legal
