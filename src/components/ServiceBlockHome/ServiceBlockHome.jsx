@@ -17,7 +17,7 @@ function ServiceBlockHome() {
                         <span className="path3"></span>
                     </span>
                 </div>
-                <a href="#" className="card-title">IT and e-commerce</a>
+                <a href="/servicepage" className="card-title">IT and e-commerce</a>
                 <p className="description">
                     An endless stream of contracts, tax issues, labor relations,
                     corporate papers - legal work distracts you from doing business.

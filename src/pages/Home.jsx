@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
                 <ExperienceBlock/>
-                <a className="wrapper service-title-link" href="/servicePage"
+                <a className="wrapper service-title-link" href="/Services"
                 >Services
                     <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
                          xmlns="http://www.w3.org/2000/svg">

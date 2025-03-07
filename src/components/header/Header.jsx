@@ -29,7 +29,7 @@ function Header() {
                 <NavigationHeaderBar/>
                 <nav className="nav__links">
                     <a className="nav__link" href="#">about us</a>
-                    <a className="nav__link" href="/servicePage">services</a>
+                    <a className="nav__link" href="/Services">services</a>
                     <a className="nav__link" href="#">team</a>
                     <a className="nav__link" href="#">publications</a>
                     <a className="nav__link" href="#">contact</a>
@@ -45,7 +45,7 @@ function Header() {
             </a>
             <nav className="nav__links tablet">
                 <a className="nav__link" href="#">about us</a>
-                <a className="nav__link" href="/servicePage">services</a>
+                <a className="nav__link" href="/Services">services</a>
                 <a className="nav__link" href="#">team</a>
                 <a className="nav__link" href="#">publications</a>
                 <a className="nav__link" href="#">contact</a>
@@ -69,7 +69,7 @@ function Header() {
                 </button>
                 <div className="nav-block-element">
                     <a className="navigation__menu-mobile__item" href="#">about us</a>
-                    <a className="navigation__menu-mobile__item" href="/ServicePage">services</a>
+                    <a className="navigation__menu-mobile__item" href="/Services">services</a>
                     <a className="navigation__menu-mobile__item" href="#">team</a>
                     <a className="navigation__menu-mobile__item" href="#">publications</a>
                     <a className="navigation__menu-mobile__item" href="#">contact</a>
