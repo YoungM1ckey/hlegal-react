@@ -32,7 +32,7 @@ function Header() {
                     <a className="nav__link" href="/Services">services</a>
                     <a className="nav__link" href="#">team</a>
                     <a className="nav__link" href="#">publications</a>
-                    <a className="nav__link" href="#">contact</a>
+                    <a className="nav__link" href="/contact">contact</a>
                 </nav>
             </div>
         {isTablet && <NavigationHeaderBar />}
@@ -48,7 +48,7 @@ function Header() {
                 <a className="nav__link" href="/Services">services</a>
                 <a className="nav__link" href="#">team</a>
                 <a className="nav__link" href="#">publications</a>
-                <a className="nav__link" href="#">contact</a>
+                <a className="nav__link" href="/contact">contact</a>
             </nav>
             <button
                 id="hamburger__button"
@@ -72,7 +72,7 @@ function Header() {
                     <a className="navigation__menu-mobile__item" href="/Services">services</a>
                     <a className="navigation__menu-mobile__item" href="#">team</a>
                     <a className="navigation__menu-mobile__item" href="#">publications</a>
-                    <a className="navigation__menu-mobile__item" href="#">contact</a>
+                    <a className="navigation__menu-mobile__item" href="/contact">contact</a>
                 </div>
             </nav>
         )}
