@@ -1,4 +1,4 @@
-@import '../../assets/_variables.scss';
+@use '../../assets/variables' as *;
 
 .frame-title {
   padding-top: 30px;

@@ -1,15 +1,15 @@
 import './Header.scss';
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import NavigationHeaderBar from '../navigationHeaderBar/NavigationHeaderBar.jsx'
-import logoHeader from './logo-header.svg';
+import logoWhite from './logoHeaderWhite.svg';
+import logoBlack from './logoHeaderBlack.png';
 import hamburgerButtonIcon from './hamburger-button.svg';
 import slashIcon from '../../assets/image/symbol/slash.svg';
-
 import { useMediaQuery } from "react-responsive";
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
 
     const toggleMenu = () => {
@@ -21,6 +21,13 @@ function Header() {
         }
     };
 
+    const location = useLocation();
+    const whiteLogoPages = ["/", "/Services", "/servicepage"];
+    const isWhiteLogo = whiteLogoPages.includes(location.pathname);
+    const logoSrc = isWhiteLogo ? logoWhite : logoBlack;
+
+    const navStyle = { color: isWhiteLogo ? "white" : "#24A3FF" };
+
     return (
 
 
@@ -28,27 +35,31 @@ function Header() {
             <div className="navigation-desktop">
                 <NavigationHeaderBar/>
                 <nav className="nav__links">
-                    <a className="nav__link" href="#">about us</a>
-                    <a className="nav__link" href="/Services">services</a>
-                    <a className="nav__link" href="#">team</a>
-                    <a className="nav__link" href="#">publications</a>
-                    <a className="nav__link" href="/contact">contact</a>
+                    <a style={navStyle} className="nav__link" href="#">about us</a>
+                    <a style={navStyle} className="nav__link" href="/Services">services</a>
+                    <a style={navStyle} className="nav__link" href="#">team</a>
+                    <a style={navStyle} className="nav__link" href="#">publications</a>
+                    <a style={navStyle} className="nav__link" href="/contact">contact</a>
                 </nav>
             </div>
         {isTablet && <NavigationHeaderBar />}
             <a href="/" className="logo">
-                <img className="header__logo" src={logoHeader} alt="hLegal" />
+                <img id="logo-icon"
+                     className="header__logo"
+                     src={logoSrc}
+                     alt="hLegal"
+                />
                 <img className="slash-mobile" src={slashIcon} alt="slash"></img>
                 <p className="header__name-page">
                     services
                 </p>
             </a>
-            <nav className="nav__links tablet">
-                <a className="nav__link" href="#">about us</a>
-                <a className="nav__link" href="/Services">services</a>
-                <a className="nav__link" href="#">team</a>
-                <a className="nav__link" href="#">publications</a>
-                <a className="nav__link" href="/contact">contact</a>
+            <nav className="nav__links tablet" style={navStyle}>
+                <a style={navStyle} className="nav__link" href="#">about us</a>
+                <a style={navStyle} className="nav__link" href="/Services">services</a>
+                <a style={navStyle} className="nav__link" href="#">team</a>
+                <a style={navStyle} className="nav__link" href="#">publications</a>
+                <a style={navStyle} className="nav__link" href="/contact">contact</a>
             </nav>
             <button
                 id="hamburger__button"
